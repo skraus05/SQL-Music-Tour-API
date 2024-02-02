@@ -14,6 +14,7 @@ module.exports = (sequelize, DataTypes) => {
         as: "event"
       })
     }
+    static associate(models) {}
   }
   MeetGreet.init({
     event_id: {
